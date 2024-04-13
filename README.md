@@ -21,6 +21,12 @@ Global `print()` is also redirected to the output buffer, but only when executin
 code via this plugin. `require'luadev'.print(...)` can be used to print to the
 buffer from some other context.
 
+`nvim-luadev` is configured via the following variables:
+
+Variable                | Behaviour
+------------------      | ------
+`g:luadev_win_cmd`      | Command used to open a new window when running `:Luadev`. Default is `new`.
+
 Planned features:
 
  - [x] autodetect expression vs statements
